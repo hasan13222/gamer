@@ -1,0 +1,97 @@
+
+  @media only screen and (max-width: 1099px) {
+    .fix-container{
+        width: 760px;
+    }
+    .funny__section__body__cards {
+        flex-wrap: wrap;
+        gap: 4rem;
+      }
+    .funny__section__body__cards__card {
+        flex: 1;
+        min-width: 45%;
+      }
+      .instant__section__text {
+        flex: 1.1;
+      }
+      .instant__section__img {
+        position: relative;
+        padding-left: 17rem;
+        flex: 1;
+      }
+      .instant__section__img .small {
+        width: 15rem;
+        bottom: -37%;
+        left: 32%;
+      }
+      .category__section {
+        padding: 4rem 0;
+      }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .fix-container{
+        width: 420px;
+    }
+    .header__section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 3rem;
+      }
+      .header__section__nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      .header__section__nav ul li {
+        width: 50%;
+        text-align: center;
+      }
+      .header__section__nav ul li.follow-item{
+        justify-content: center;
+      }
+      .hero__section {
+        flex-wrap: wrap;
+        gap: 7rem;
+      }
+      .hero__section__text {
+        padding: 0;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .hero__section__img{
+        min-width: 100%;
+      }
+      .funny__section__body__cards__card{
+        min-width: 50%;
+        padding: 0 5rem;
+      }
+
+      h2, h2 span{
+        font-size: 3.4rem;
+      }
+      .instant__section {
+        padding-bottom: 5rem;
+        flex-wrap: wrap;
+      }
+      .instant__section__text {
+        flex: 1.1;
+        min-width: 100%;
+        text-align: center;
+        margin-bottom: 5rem;
+      }
+      .instant__section__img{
+        padding-left: 7rem;
+      }
+      .instant__section__img .small{
+        left: 16%;
+      }
+      .category__section {
+        padding: 0;
+        padding-bottom: 5rem;
+      }
+      .footer__section ul{
+        flex-wrap: wrap;
+      }
+  }
